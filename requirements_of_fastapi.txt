@@ -1,0 +1,14 @@
+# Requirements for FastAPI project
+# its use conda version
+
+fastapi uvicorn -y
+python-dotenv -y
+pydantic -y
+requests httpx -y
+sqlalchemy databases alembic -y
+passlib -y
+python-jose cryptography -y
+email-validator -y
+pytest pytest-asyncio -y
+black isort flake8 pre-commit -y
+python-multipart -y
